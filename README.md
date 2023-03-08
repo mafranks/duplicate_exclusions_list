@@ -25,6 +25,10 @@ pip install requests
 pip install python-dotenv
 ```
 
+# Limitations
+
+Current API calls prevent duplicating Threat type exclusions. If you have any of those in your exclusions list, you will need to manually duplicate those exclusions.
+
 # Usage
 
 When you first run the script you'll get authenticated and then presented with a list of organizations you belong to.
