@@ -3,8 +3,6 @@
 Update your .env file with CLIENT_ID and API_KEY from here:
 https://developer.cisco.com/docs/secure-endpoint/#!authentication/4-generate-secure-endpoint-api-access-token
 
-NOTE: The Event:Read scope is required for this script to function.
-
 Also add CLOUD = <Cloud> (NAM, EU, APJC)
 
 Example .env:
@@ -20,6 +18,8 @@ CLOUD="NAM"
 Python version 3.5+
 
 Go through the [Authentication instructions](https://developer.cisco.com/docs/secure-endpoint/#!authentication) for SecureX to integrate Secure Endpoint and create an API Client.
+
+NOTE: The Secure Endpoints integration API key requires a read/write scope for this script to function.
 
 Install python requirements:
 
