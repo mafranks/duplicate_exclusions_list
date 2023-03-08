@@ -104,6 +104,8 @@ def get_exclusion_sets(se_access_token, org_id, start=0, exclusion_sets=[]):
     }
     headers = {'Authorization': f'Bearer {se_access_token}'}
     exclusion_sets_response = requests.get(exclusion_sets_url, headers=headers, data=data)
+    if exclusion_sets_response.status_code == 401:
+         exit("Invalid token provided.  Please check your SecureX credentials and Secure Endpoint integration.")
     for exclusion_set in exclusion_sets_response.json().get('data'):
         exclusion_sets.append(exclusion_set)
     current_index = start + exclusion_sets_response.json().get('meta').get('size')
