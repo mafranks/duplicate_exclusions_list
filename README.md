@@ -60,7 +60,7 @@ Input a number listed above:
 Next you will see output regarding the progress of the exclusion list duplication.
 
 ```
-Created new exclusion set. Franks_Test - Copy
+Created new exclusion set. Another list - Copy
 Added ioc exclusion to exclusion set.
 Added fileExtension exclusion to exclusion set.
 Added process exclusion to exclusion set.
