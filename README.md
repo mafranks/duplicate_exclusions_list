@@ -1,7 +1,7 @@
 # Setup
 
-Update your .env file with CLIENT_ID and API_KEY from here:
-https://developer.cisco.com/docs/secure-endpoint/#!authentication/4-generate-secure-endpoint-api-access-token
+Update your .env file with CLIENT_ID and API_KEY for SecureX from here:
+https://developer.cisco.com/docs/secure-endpoint/#!authentication/3-generate-securex-api-access-token
 
 NOTE: The Event:Read scope is required for this script to function.
 
